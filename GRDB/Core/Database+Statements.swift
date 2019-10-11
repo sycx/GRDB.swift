@@ -1,6 +1,6 @@
 import Foundation
 #if SWIFT_PACKAGE
-import CSQLite
+import SQLite3
 #elseif GRDBCIPHER
 import SQLCipher
 #elseif !GRDBCUSTOMSQLITE && !GRDBCIPHER

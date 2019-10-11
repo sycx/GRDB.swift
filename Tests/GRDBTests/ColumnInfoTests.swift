@@ -5,7 +5,7 @@ import XCTest
     #if GRDBCIPHER
         import SQLCipher
     #elseif SWIFT_PACKAGE
-        import CSQLite
+        import SQLite3
     #else
         import SQLite3
     #endif

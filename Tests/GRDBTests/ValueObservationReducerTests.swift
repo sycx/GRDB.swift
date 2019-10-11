@@ -4,7 +4,7 @@ import Dispatch
     import GRDBCustomSQLite
 #else
     #if SWIFT_PACKAGE
-        import CSQLite
+        import SQLite3
     #else
         import SQLite3
     #endif
